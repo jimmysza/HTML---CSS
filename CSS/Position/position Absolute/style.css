@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: #777d;
+}
+
+.container {
+    border: 2px solid black;    
+    margin: 20px;
+    margin-top:50px ;
+    background-color: white;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 247, 0);
+    color: #fff;
+    text-shadow: 0 4px 45px #000;
+}
+
+.box--blue {
+    background-color: #23f;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.box--red{
+    background-color: red;
+}
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Formulario de contacto</h1>
+        <fieldset>
+            <legend>Informacion Basica</legend>
+            <div class="form-input">
+                <label>Nombre Completo
+                    <input type="text" placeholder="Jaime Perez">
+                </label>
+            </div>
+            <div class="form-input">
+                <label >Email
+                    <input type="email" placeholder="ejemplo@gmail.com">
+                </label>
+            </div>
+            <div class="form-input">
+                <label>Asunto
+                    <input type="text" placeholder="Digite su Asunto">
+                </label>
+            </div>  
+        </fieldset>
+            <div class="form-input">
+                <label>Tipo de Usuario
+                    <select>
+                        <option value="Seguidora">Persona</option>
+                        <option value="">Empresa</option>
+                        <option value="">Otros...</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-input"> 
+                <label> Referente
+                    <input list="referente" >
+                    <datalist id="referente">
+                        <option value="Empresa">Empresa Social</option>
+                        <option value="Soy Dalto">Youtuber</option>
+                        <option value="Familiar">Un familiar me recomendo</option>
+                        <option value="Publicidad">Alguna de su publicidad</option>
+                    </datalist>
+                </label>
+            </div>
+        <div class="form-input"> 
+            <label>Mensaje
+                <textarea cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <div class="form-input">
+            <label> Acepto los <a href="terms.html" target="_blank">terminos y condiciones</a> 
+                <input type="checkbox" class="checkbox" >
+            </label>
+            
+        </div>
+    </form>
+</body>
+</html>

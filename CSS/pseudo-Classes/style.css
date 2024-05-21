@@ -1,0 +1,90 @@
+h1 {
+    color: #343;
+    margin: 30px;
+}
+
+h1:hover {
+    color: #49f;
+    background-color: #ccc;
+}
+
+/*Mientras clickea*/
+h1:active {
+    color: #fff;
+    background-color: #999;
+}
+/*Selecciona el primer li de cada ul o ol*/
+ul > li:first-child {
+    color: red;
+}
+
+/*Selecciona el Segundo li de cada ul o ol*/
+li:nth-child(3) {
+    color: #2f1;
+}
+
+/*1n , 2n, 3n  de cada 3 se seleciona uno*/
+li:nth-child(2n) {
+    color: #fd4;
+}
+/*Escoge al elemento del tipo li nada mas*/
+li:nth-of-type(3) {
+    color: #fff;
+}
+
+/*Selecciona el ultimo li*/
+li:last-child {
+    color: blue;
+}
+
+/*Selecionando a todos los que no tenga la clase ".excluir" */
+.lista li:not(.excluir) {
+    color: rgb(219, 14, 151);
+}
+
+
+div {
+    border: 2px solid #111;
+}
+
+/*Selecionando a elementos vacios*/
+div:empty {
+    border: none;
+}
+
+
+input[type="checkbox"]{
+    margin: 50px;
+}
+
+/*Mientas el checkbox este checkiado...*/
+input[type="checkbox"]:checked {
+    margin: 0
+}
+
+/*SELECIONANDO ENLACES NO VISITADOS*/
+a:link {
+    color: red;
+}
+
+/*SELECIONANDO ENLACES VISITADOS*/
+a:visited {
+    color: #49f;
+}
+
+/*Mientas no sea un email haz...*/
+input[type="email"]:invalid{
+    color: red;
+}
+
+/*Mientas sea un email haz...*/
+input[type="email"]:valid{
+    color: #111;
+}
+
+
+input[type="email"] {
+    margin: auto;
+    padding: auto;
+}
+

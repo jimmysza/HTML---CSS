@@ -1,0 +1,33 @@
+body {
+    margin: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.lista{
+    border: 1px solid black;
+    list-style: square;
+    text-transform: uppercase;
+}
+
+.lista__item {
+    color: blue;
+    margin: 10px;
+}
+
+.item--danino {
+    color: red;
+}
+
+.item--importante {
+    color: #0f1;
+    list-style: disc;
+}
+
+.lista--vieja {
+    background-color: #ddd;
+    opacity: 0.5;
+    border: 0.5px solid #444d;
+}

@@ -1,0 +1,18 @@
+
+
+/*Agrupas los siguientes elementos de section o x elemento*/
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: #2af;
+}
+
+
+section :wheew(.elemento1, .elemento2, .elemento3) {
+    color: #afa;
+}
+
+
+/*se le da al elemento padre, si section tiene un .elemento uno da lo siguiente*/
+section:has(.elemento1) {
+    background-color: #000;
+    color: #999;
+}

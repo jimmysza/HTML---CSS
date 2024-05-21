@@ -1,0 +1,19 @@
+td, th {
+    border-bottom: 1px solid #0004;
+    padding: 6px;
+    padding-bottom: 9px;
+    text-align: center;
+    font-family: sans-serif;    
+}
+table {
+    width: 100%;
+    border-spacing: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 45px #0002;
+    margin-top: 50px;
+}
+td {
+    color: #666;
+    
+}

@@ -1,0 +1,29 @@
+.titulo {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: greenyellow;
+    border: 3px solid whitesmoke;
+    border-radius: 6px;
+    color: whitesmoke;
+    text-shadow: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: small;
+}
+
+body {
+    background-color: black;
+}
+
+input {
+    margin: 5px;
+    padding: 3px 10px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    background-color: transparent;
+    color: greenyellow
+}

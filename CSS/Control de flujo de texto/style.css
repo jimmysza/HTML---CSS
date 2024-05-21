@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #4cc;
+}
+
+.box{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px ;
+    border: 1px solid #1119;
+    /*Control*/
+    overflow: hidden;
+    white-space: pre;
+    text-overflow: ellipsis;
+}

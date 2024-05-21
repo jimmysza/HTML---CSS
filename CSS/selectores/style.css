@@ -1,0 +1,19 @@
+/*Selecionamos todos los elementos p */
+li {
+    /*Bloque de declaraciones*/    
+    color: rgb(104, 85, 85); 
+}
+
+
+/*las clases inician con . + nombre de la clase*/
+.Obligatorio {
+    color: brown;
+    
+}
+
+#Ingrediente-Especial {
+    background-color: gold ;
+
+}
+
+/**/

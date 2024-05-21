@@ -1,0 +1,13 @@
+.box {
+    padding: 50px;
+    background-color: #9ad;
+    margin: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #043;
+    font-weight: bold;
+    border-top: 4px solid black;
+}
+
+/*rgb, Hexadecimal ,HCL /

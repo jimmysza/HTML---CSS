@@ -1,0 +1,43 @@
+div {
+    padding: 20px;
+}
+
+h1::first-letter {
+    color: red;
+    font-size: 65px;
+    letter-spacing: -5px;
+}
+
+/*la primera linea de un parrafo*/
+div::first-line {
+    color: #f00;
+    font-weight: bold;
+
+}
+
+/*al selecionar algun objecto*/
+div::selection {
+    background-color: #ddd;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #0f0;
+    background-color: #333;
+}
+
+/*los puntos de las listas*/
+li::marker {
+    color: red;
+}
+
+/*se pone antes del li, no son selecionables*/
+li::before {
+    content: "texto antes ";
+    color: red;
+}
+/*se pone antes del li, no son selecionables*/
+li::after {
+    content: " Esto deberia ir despues";
+    color: blue;
+}

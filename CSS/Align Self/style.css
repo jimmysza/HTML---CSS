@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #ccc;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+
+.box-flex {
+    display: flex;
+    /*Direccion de los elementos y cuando no halla espacio se mueva*/
+    flex-flow: row wrap ;
+    margin: 20px;
+    /*aLinear el texto en cuanto el eje cruzado cuando son bastantes*/
+    justify-content: start;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 7%);
+    padding: 20px;
+    height: 300px;
+
+}
+
+
+.flex-item{
+    background-color: #11f;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;  
+    /*aLinear el texto en cuanto el eje cruzado*/
+    text-align: center;
+    /*grow, shrink, basis*/
+    flex: 1 1 100px;
+}
+
+
+.flex-item:first-child{
+    background-color: #48f;
+}
+
+.flex-item:nth-child(2n) {
+    background-color: rgb(0, 216, 97);
+    
+}
+
+.flex-item:last-child {
+    background-color: #000;
+    flex-grow: 1;
+}
+
+.item-5 {
+/*alinear de una manera diferente un hijo de la manera como 
+se elinearon a los demas con align-items excluisvamente*/
+align-self: start;
+}

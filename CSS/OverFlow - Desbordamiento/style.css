@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.box{
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    position: relative;
+    left: 0; 
+    border: 2px solid black;
+    margin: auto;
+    text-align: justify;
+    margin-top: 50px;
+    overflow: hidden;
+
+}

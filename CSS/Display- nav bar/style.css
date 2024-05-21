@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #7774;
+    padding: 10px;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.nav__link {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(112, 177, 14);
+    border-radius: 6px;
+}
+
+/*se le pone al hover para que cuando se presione solo el <a> cambie color*/
+.nav__link:hover {
+    background-color: #7771;
+    padding: 10px;
+    
+}
+
+.link--button {
+    border: 1 solid black;
+    background: rgb(112, 177, 14);
+    color: #fff;
+    margin-right: 20px ;
+    border-radius: 6px;
+    padding: 6px 18px;
+}
+
+.link--button:hover {
+    background: transparent;
+    border: 1px solid rgb(112, 177, 14);
+    color: rgb(112, 177, 14);
+    padding: 6px 18px;
+}
+

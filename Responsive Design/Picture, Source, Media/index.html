@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture, Source, Media</title>
+</head>
+<body>
+    <picture>
+        <!--menor que 400 muestra esta-->
+        <source media="(max-width: 400px)" srcset="soydalto.jpeg">
+        <!--menor que 800 muestra esta-->
+        <source media="(max-width: 800px)" srcset="soydalto-medium.jpeg">
+        <img src="soydalto.jpeg" >
+    </picture>
+</body>
+</html>

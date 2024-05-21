@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    /* se adapta a contenedores chiquitos, no pierde calidad */
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.container {
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+video {
+    width: 100%; 
+}

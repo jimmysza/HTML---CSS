@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #ccc;
+}
+
+
+.box-flex {
+    background-color: #fff;
+    border: 1px solid #111;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+.flex-item{
+    background-color: #11f;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;  
+    text-align: center;
+    width: 100px;
+    order: 4;
+}
+
+
+.flex-item:first-child{
+    background-color: #48f;
+    order: 1;
+}
+
+.flex-item:nth-child(2) {
+    background-color: #33f;
+    order: 2;
+}
+
+.flex-item:last-child {
+    background-color: #000;
+    order: 0;
+    
+}

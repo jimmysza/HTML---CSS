@@ -1,0 +1,39 @@
+
+/*font-family: "Caveat", cursive;*/
+
+p {
+    color: #121212;  
+    /*despues de la coma significa font alternativos*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    /*Grosor de la tipografia  100-900,  bold=700,  bolder=900*/
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    /*Distancia entre lineas de un p, altura de la linea*/
+    line-height: 1.2;
+    /*Separada las letras entre si- horizontal*/
+    letter-spacing: 0.2px;
+    /*Texto mayus, min, capitalize*/
+    text-transform: capitalize;
+    /*Corta el texto en cada salto de reglon de manera consentido sintactico*/
+    word-break: break-all;
+}
+h1{
+    font-size: 26px;
+    text-align: center;
+    font-family: "Caveat-Bold";
+    font-weight: bold;
+    }
+
+
+span {
+text-decoration: line-through;
+text-transform: uppercase;
+text-shadow: 0px 0px 4px #f99;
+}
+
+a {
+    text-decoration: none;
+    color:#121212;
+}

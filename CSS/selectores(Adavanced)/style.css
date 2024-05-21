@@ -1,0 +1,26 @@
+ul li {
+    color: #777;
+}
+
+/*Selector por hijo directo*/
+ul > li > strong {
+    text-shadow: 0 0 45px #000f;
+    font-size: large;
+    color: #239;
+}
+
+
+img[src="tqmqa"] {
+    width: 50%;
+}
+
+/* SELECTOR ADYACENTE - a los p despues de un h1*/
+h1 + p {
+    color: #239;
+}
+/*Selectores Hermanos - todos los p despues de h1*/
+h1 ~ p {
+    color: #239;
+}
+
+
